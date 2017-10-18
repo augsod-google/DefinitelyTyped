@@ -21,6 +21,10 @@ interface GoogleApiOAuth2TokenObject {
      */
     expires_in: string;
     /**
+     * The timestamp, in seconds, at which the token will expire. Only present in successful responses
+     */
+    expires_at: string;
+    /**
      * The Google API scopes related to this token
      */
     state: string;
